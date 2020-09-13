@@ -1,0 +1,231 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#Background {
+  height: 100vh;
+  background: url("/images/Home3.jpg") 0% 0% no-repeat padding-box #ebe0e8;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.Logo {
+  margin-top: 14px;
+  margin-left: 67px;
+  font-size: 50px;
+  font-family: pacifico;
+  color: white;
+}
+
+.Logo :hover {
+  cursor: pointer;
+}
+
+.Logo h1 {
+  position: absolute;
+  font-size: 25px;
+  top: 20px;
+  font-family: pacifico;
+  color: #ffffff;
+  margin-left: 200px;
+  margin-top: px;
+}
+
+.links a {
+  margin-right: 90px;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.link {
+  float: right;
+  font-size: 25px;
+  font-family: poppins;
+  text-decoration: none;
+}
+
+.link :hover {
+  cursor: pointer;
+}
+
+/*Styling for main*/
+.content {
+  margin-top: 265px;
+  padding-right: 800px;
+  padding-left: 100px;
+  line-height: px;
+  text-align: left;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.content h1 {
+  font-size: 90px;
+}
+
+#container {
+  position: absolute;
+  margin-top: -10px;
+  left: 100px;
+}
+
+input[type=text] {
+  padding: 15px;
+  font-size: 24px;
+  color: #0f1b1d;
+  outline-color: #1FAAC6;
+  border: 2px solid #1FAAC6;
+  float: left;
+  margin-top: 45px;
+  margin-left: 438px;
+  width: 120%;
+}
+
+button {
+  position: absolute;
+  top: 45px;
+  float: right;
+  right: -625px;
+  height: 60px;
+  width: 250px;
+  padding: 10px;
+  background: #1FAAC6;
+  color: white;
+  font-size: 17px;
+  outline-color: #1FAAC6;
+  border: 1px solid #59CFD4;
+  border-radius: none;
+  border-left: none;
+  font-size: 23px;
+  font-family: nunito;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #59CFD4;
+}
+
+#main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2.5fr 1.5fr;
+      grid-template-columns: 2.5fr 1.5fr;
+  grid-column-gap: 30px;
+  margin-top: 20px;
+}
+
+#main .content {
+  margin-top: 120px;
+  background-color: #A5CFD1;
+  border-radius: 15px;
+  padding: 10px;
+  height: 1800px;
+}
+
+#Hotel {
+  padding: 5px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  margin-top: 10px;
+}
+
+.container {
+  border-radius: 15px;
+  width: 97%;
+  height: 430px;
+  background: #ffffff;
+}
+
+.container :hover {
+  cursor: pointer;
+}
+
+.container img {
+  padding: 6px;
+  width: 365px;
+  border-radius: 15px;
+}
+
+.container h4 {
+  margin-top: 10px;
+  padding-left: 30px;
+  text-align: left;
+  font-family: nunito;
+  font-size: 25px;
+  color: #095357;
+}
+
+.container h3 {
+  text-align: left;
+  padding: 25px;
+  font-family: nunito;
+  font-size: 20px;
+  color: #959595;
+}
+
+#main .sideBar {
+  margin-top: 120px;
+  background-color: #A5CFD1;
+  border-radius: 15px;
+  height: 1800px;
+}
+
+#main .sideBar h2 {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: nunito;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#Latest {
+  padding: 10px;
+  margin-top: -20px;
+}
+
+.container1 {
+  border-radius: 15px;
+  width: 700px;
+  height: 250px;
+  background: #ffffff;
+}
+
+.container1 :hover {
+  cursor: pointer;
+}
+
+.container1 img {
+  padding: 5px;
+  width: 200px;
+  border-radius: 15px;
+  height: 240px;
+}
+
+.container1 span {
+  position: absolute;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 40px;
+  font-family: nunito;
+  color: #7a7979;
+}
+
+.container1 h1 {
+  color: #095357;
+}
+
+h3 {
+  padding-top: 0px;
+  padding-left: 25px;
+  font-family: nunito;
+  font-size: 20px;
+  color: #959595;
+  text-align: end;
+}
+/*# sourceMappingURL=index.css.map */
